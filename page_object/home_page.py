@@ -1,0 +1,18 @@
+class HomePage:
+    url = "https://katalon-demo-cura.herokuapp.com/#summary"
+    title = "CURA Healthcare Service"
+    copyright = "//p[@class='text-muted']"
+    make_appointment = "//a[@id='btn-make-appointment']"
+    name = "//input[@value='John Doe']"
+    password = "//input[@value='ThisIsNotAPassword']"
+    enter_name = "//input[@id='txt-username']"
+    enter_pass = "//input[@id='txt-password']"
+    submit = "//button[@id='btn-login']"
+    appointment_url = "https://katalon-demo-cura.herokuapp.com/#appointment"
+
+    hospital = "//select[@id='combo_facility']"
+    terms = "//input[@id='chk_hospotal_readmission']"
+    radio_button = "//input[@id='radio_program_medicaid']"
+    calendar = "//input[@id='txt_visit_date']"
+    textarea = "//textarea[@id='txt_comment']"
+    submit_appointment = "//button[@id='btn-book-appointment']"
